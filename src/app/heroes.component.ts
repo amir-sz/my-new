@@ -79,12 +79,11 @@ onSelect(hero: Hero): void {
 
 constructor(private heroService: HeroService) { }
 
-getHeroesSlowly(): void {
-  this.heroService.getHeroesSlowly().then(heroes => this.heroes = heroes);
+getHeroes(): void {
+  this.heroService.getHeroes().then(heroes => this.heroes = heroes);
 }
 ngOnInit(): void {
-  this.getHeroesSlowly();
+  this.getHeroes();
 }
 }
-
 // display a list of heroes

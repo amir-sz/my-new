@@ -14,7 +14,7 @@ export const HEROES: Hero[] = [
   { id: 20, name: 'Tornado' }
 ]
 
-
+// array of mock heroes
 
 
 
