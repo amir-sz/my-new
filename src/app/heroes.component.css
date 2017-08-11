@@ -32,6 +32,13 @@ h1 {
     background-color: #BBD8DC !important;
     color: white;
   }
+  button.delete {
+  float:right;
+  margin-top: 2px;
+  margin-right: .8em;
+  background-color: gray !important;
+  color:white;
+}
   .heroes .text {
     position: relative;
     top: -3px;
